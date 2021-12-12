@@ -180,4 +180,7 @@ button {
 
 .footer {
     color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
