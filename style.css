@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -42,7 +41,13 @@ button {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.header-links {
+    display: flex;
 }
 
 .header-logo {
@@ -55,8 +60,22 @@ button {
 }
 
 .section-one {
+    height: 300px;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 36px;
+    
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .one-left-title {
@@ -67,25 +86,67 @@ button {
 
 .one-right {
     background-color: gray;
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-two {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 48px;
+    
 
+}
+
+
+
+.two-content {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.two-card {
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 200px;
 }
 
 .card-box {
     border: 2px solid #3882F6;
     border-radius: 12px;
+    height: 200px;
+    
+    
+
+}
+
+.card-text {
+    flex-wrap: wrap;
+    
 }
 
 .two-title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    align-self: center;
 }
 
 .section-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -96,8 +157,24 @@ button {
 }
 
 .section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+
+.section-four-box {
     background-color: #3882F6;
     color: white;
+    height: 125px;
+    width: 800px;
+    padding-left: 48px;
+    padding-right: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+
 
 }
 
