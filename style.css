@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -20,6 +21,7 @@ a {
 
 button {
     background-color: #3882F6;
+    color: white;
     padding: 8px 32px;
     font-size: 12px;
     font-weight: bold;
@@ -30,7 +32,7 @@ button {
 .four-button {
     border: 2px solid white;
     border-color: white;
-    color: white;
+    
 
 }
 
@@ -38,6 +40,11 @@ button {
 .section-one,
 .footer {
     background-color: #1F2937;
+}
+
+.header,
+.footer {
+    padding: 16px 88px;
 }
 
 .header {
@@ -48,6 +55,7 @@ button {
 
 .header-links {
     display: flex;
+    gap: 24px;
 }
 
 .header-logo {
@@ -56,26 +64,30 @@ button {
 }
 
 .main-content {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .section-one {
     height: 300px;
     font-size: 18px;
     color: #E5E7EB;
+    flex: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 72px 88px;
     gap: 36px;
-    
 }
 
 .one-left {
     display: flex;
     flex-direction: column;
+    width: 500px;
     flex: 1;
     flex-wrap: wrap;
     gap: 16px;
+
 }
 
 .one-left-title {
@@ -85,8 +97,16 @@ button {
 }
 
 .one-right {
-    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
     flex: 1;
+}
+
+.one-right-image {
+    background-color: gray;
+    height: 250px;
+    width: 600px;
     align-self: stretch;
     display: flex;
     align-items: center;
@@ -94,44 +114,47 @@ button {
 }
 
 .section-two {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 16px 48px;
-    
-
+    gap: 8px;
+    padding: 36px 72px 64px 72px;
 }
 
 
 
 .two-content {
+    flex: 1;
     display: flex;
-    justify-content: space-around;
-    
-    
+    padding: 8px;
+    justify-content: center;
+    gap: 24px;
 }
 
 .two-card {
     
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
-    flex-wrap: wrap;
-    width: 200px;
+    
+    gap: 8px;
+    padding: 16px 0;
+    max-width: fit-content;
+    
 }
 
 .card-box {
     border: 2px solid #3882F6;
     border-radius: 12px;
-    height: 200px;
-    
-    
-
+    height: 150px;
+    width: 150px;
 }
 
 .card-text {
-    flex-wrap: wrap;
-    
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
 }
 
 .two-title {
@@ -143,10 +166,18 @@ button {
 
 .section-three {
     background-color: #E5E7EB;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 124px 300px;
+
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 .quote {
@@ -157,19 +188,20 @@ button {
 }
 
 .section-four {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px;
+    padding: 64px 72px;
 }
 
 .section-four-box {
     background-color: #3882F6;
     color: white;
     height: 125px;
-    width: 800px;
-    padding-left: 48px;
-    padding-right: 48px;
+    width: 900px;
+    padding-left: 64px;
+    padding-right: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
