@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+.four-button {
+    border: 2px solid white;
+    border-color: white;
+    color: white;
+
+}
+
+.header,
+.section-one,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-content {
+
+}
+
+.section-one {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.one-left-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.one-right {
+    background-color: gray;
+}
+
+.section-two {
+
+}
+
+.card-box {
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.two-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-four {
+    background-color: #3882F6;
+    color: white;
+
+}
+
+.footer {
+    color: #E5E7EB;
+}
